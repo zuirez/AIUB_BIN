@@ -6,8 +6,8 @@ here s2's frist 3 values will be added to s1 and be saved and print
 
 */
 
-#include <iostream>
-#include <cstring>
+#include<iostream>
+#include<cstring>
 using namespace std;
 
 int main()

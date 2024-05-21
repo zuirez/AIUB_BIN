@@ -6,8 +6,8 @@ it will show the ascii difference too.
 
 */
 
-#include <iostream>
-#include <cstring>
+#include<iostream>
+#include<cstring>
 using namespace std;
 
 int main()

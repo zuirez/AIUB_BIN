@@ -5,8 +5,8 @@ This `strcpy` function will copy string2 and paste it into string1.
 
 */
 
-#include <iostream>
-#include <cstring>
+#include<iostream>
+#include<cstring>
 using namespace std;
 
 int main()

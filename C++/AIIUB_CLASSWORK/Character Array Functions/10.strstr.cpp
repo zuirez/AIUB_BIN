@@ -4,8 +4,8 @@ to find string inside a string
 
 */
 
-#include <iostream>
-#include <cstring>
+#include<iostream>
+#include<cstring>
 using namespace std;
 int main()
 {

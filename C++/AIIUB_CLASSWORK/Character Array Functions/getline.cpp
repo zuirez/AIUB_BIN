@@ -4,7 +4,7 @@ Taking user input and display output (with spaces) Using getline
 
 */
 
-#include<iostream>
+#include <iostream>
 using namespace std;
 
 int main()

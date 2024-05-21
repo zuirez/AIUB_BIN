@@ -9,8 +9,8 @@ replacing them with the copied value. The remaining 4 letters will remain unchan
 
 */
 
-#include <iostream>
-#include <cstring>
+#include<iostream>
+#include<cstring>
 using namespace std;
 
 int main()

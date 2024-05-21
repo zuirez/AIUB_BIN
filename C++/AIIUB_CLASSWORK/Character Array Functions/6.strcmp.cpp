@@ -8,8 +8,8 @@ If string1 is equal to string2, the output would be 0.
 
 */
 
-#include <iostream>
-#include <cstring>
+#include<iostream>
+#include<cstring>
 using namespace std;
 
 int main()

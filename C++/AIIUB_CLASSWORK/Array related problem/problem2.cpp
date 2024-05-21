@@ -40,7 +40,6 @@ int main()
     {
         mult=mult*arr[i];
     }
-
     cout<<"Sum : "<<sum<<endl;
     cout<<"Avg : "<<avg<<endl;
     cout<<"Mult : "<<mult<<endl;

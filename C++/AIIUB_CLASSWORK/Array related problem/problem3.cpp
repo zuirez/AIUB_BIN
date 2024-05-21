@@ -27,6 +27,5 @@ int main()
             a=arr[i];
         }
     }
-
     cout<<"Lowest cgpa : "<<a;
 }
