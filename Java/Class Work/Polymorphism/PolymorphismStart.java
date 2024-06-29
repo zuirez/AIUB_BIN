@@ -3,9 +3,9 @@ public class PolymorphismStart
     public static void main(String[] args)
     {
         //Constructor Overloading.
-        Polymorphism p1 = new Polymorphism();
-        Polymorphism p5 = new Polymorphism(5);
-        Polymorphism p6 = new Polymorphism(5, 5);
+        //Polymorphism p1 = new Polymorphism();
+        //Polymorphism p5 = new Polymorphism(5);
+        //Polymorphism p6 = new Polymorphism(5, 5);
 
         Polymorphism p2= new Polymorphism();
 

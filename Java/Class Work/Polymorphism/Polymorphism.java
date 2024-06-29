@@ -17,8 +17,8 @@ Polymorphism covers 3 main parts
 
 public class Polymorphism
 {
-	private int a=0;
-	private int b=0;
+	//private int a=0;
+	//private int b=0;
 
 	//Constructor Overloading.
 	public Polymorphism()
