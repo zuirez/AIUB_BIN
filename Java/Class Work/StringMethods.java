@@ -23,7 +23,7 @@ public class StringMethods
 		System.out.println(name.charAt(1));
 		space();
 		
-		//concat (Concates 2 stirng)
+		//concat (Concates 2 string)
 		System.out.println("concat : ");
 		System.out.println(name.concat(" "+name2));
 		
@@ -102,7 +102,7 @@ public class StringMethods
 		
 		//valueOf
 		System.out.println("ignoreCase : ");
-		System.out.println(name.valueOf(name));
+		//System.out.println(name.valueOf(name));
 		space();
 	}
 }
