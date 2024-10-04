@@ -12,6 +12,12 @@
 
 
 ## Pointer
+
+### Index :
+- [Introduction](#1-introduction)
+- [Pointer with Array](#2-pointer-with-array)
+- [Pointer with Function](#3-pointer-with-function)
+
 ### **1. Introduction**
 ___
 
