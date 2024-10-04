@@ -275,7 +275,7 @@ The cout works differently with character array. When We try to print arr, the a
 
 <br>
 
-### **2. Pointer with Function** 
+### **3. Pointer with Function** 
 ___
 
 ### # Implementation
