@@ -133,6 +133,136 @@ If we try to increment the address of a pointer by 1, the address dosen't increm
 
 <br>
 
+### # Void pointer
+
+>A void pointer is a special type of pointer that can point to any value **which does not have a specific data type.**
+
+<br>
+
+**Key Points:**<br>
+- A void pointer does not know what type of data it points to.
+  
+- It can hold the address of any variable, regardless of its type.
+  
+- However, because it doesn’t have a type, we cannot directly dereference it or perform pointer arithmetic **until we typecast it to the appropriate pointer type.**
+
+<br>
+
+**An example of void pointer :**
+```cpp
+#include <iostream>
+using namespace std;
+
+void increase(void *data, int size)
+{
+    if ( size == sizeof(char) )
+    {
+        char *pchar;
+        pchar=(char*)data;
+        ++(*pchar);
+    }
+
+    else if (size == sizeof(int))
+    {
+        int *pint;
+        pint=(int*)data;
+        ++(*pint);
+    }
+}
+
+int main()
+{
+    char a = 'x';
+    int b = 1602;
+
+    cout <<"Before increment : "<< a << ", " << b << endl;
+
+    increase (&a,sizeof(a));
+    increase (&b,sizeof(b));
+
+    cout <<"After increment : "<< a << ", " << b << endl;
+}
+```
+
+<br>
+
+**Output :**
+```
+Before increment : x, 1602
+After increment : y, 1603
+```
+<br>
+
+**Explanation :**
+
+
+``` cpp
+#Main Function
+
+Variables:
+
+char a = 'x'; // A char variable a is initialized with the character 'x'.
+
+int b = 1602; // An int variable b is initialized with the value 1602.
+
+
+Calling the increase function:
+
+increase(&a, sizeof(a)); // The address of a (char) is passed to the increase function along with the size of a (1 byte).
+
+increase(&b, sizeof(b)); // The address of b (int) is passed to the increase function along with the size of b (4 bytes).
+
+
+
+#Increase Function
+
+Function parameter :
+
+void increase(void *data, int size) //This function takes two arguments
+
+void *data // A pointer to some data. Since it's a void*, it can point to any data type (char, int, etc.).
+
+int size // The size of the data being passed (the size of char or int).
+
+(void *) // Void pointer is used as we don't know the type of the data we're passing. Here, the size of the data (size) will help the function determine whether the data is a char or an int.
+
+
+Inside if_else :
+
+if (size == sizeof(char)) // The function checks if the size of the data is equal to the size of a char. The size of char is always 1 byte.
+
+char *pchar; // A pointer of type char is declared to hold the address of the char data.
+
+pchar = (char*)data; // The void* pointer data is type-cast to a char* pointer because the function knows the data is of type char based on its size.
+
+++(*pchar); // This increments the value at the memory address pchar points to. The *pchar dereferences the pointer to access the actual value, and ++ increments it.
+
+
+
+else if (size == sizeof(int)) // If the size of the data is equal to the size of an int, this block executes. The size of int is usually 4 bytes.
+
+int *pint; // A pointer of type int is declared to hold the address of the int data.
+
+pint = (int*)data; // The void* pointer data is type-cast to an int* pointer because the function knows the data is of type int based on its size.
+
+++(*pint); // This increments the value at the memory address pint points to. The *pint dereferences the pointer to access the actual int value, and ++ increments it.
+
+```
+<br>
+
+### # Null pointer
+
+>A null pointer is a pointer that does not point to any valid memory location. It is used to indicate that the pointer is not currently assigned a value or memory address.
+
+```cpp
+int * p;
+p = 0; // we can also write, p = NULL;
+
+       //p has a null pointer value
+```
+
+<br>
+
 ### **2. Pointer with Array** 
 ___
 
