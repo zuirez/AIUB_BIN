@@ -439,3 +439,160 @@ int main()
 ```
 Printing the value of a : 5
 ```
+<br>
+
+### # Passing arguments by value and by address 
+
+```cpp
+#include <iostream>
+using namespace std;
+
+void swap(int *a, int *b) //a,b points to &num1,&num2 respectively
+{
+    int t;
+    t = *a;
+    *a = *b;
+    *b = t;
+}
+
+int main()
+{
+    int num1=5,num2=10;
+
+    cout<<"Before swap : "<<endl;
+    cout<<"Number1 = "<<num1<<endl;
+    cout<<"Number2 = "<<num2<<endl;
+
+    swap(&num1,&num2); // address of num1, num2 is passed
+    
+    cout<<"After swap : "<<endl;
+    cout<<"Number1 = "<<num1<<endl;
+    cout<<"Number2 = "<<num2;
+}
+```
+<br>
+
+**Output :**
+```
+Before swap : 
+Number1 = 5
+Number2 = 10
+
+After swap :
+Number1 = 10
+Number2 = 5
+```
+>[!TIP]Note
+When we pass arguments to a function **by value**, the called function only gets a copy of the variables, and there is **no way to modify the original variables** in the calling function.<br><br>
+When we pass pointers as arguments (passing by reference or address), the called function **can access and modify the actual variables** in the calling function. <br><br>
+Here we passed the **address** of the variables in the function. And the function swap the numbers and updated the variables instead of created another variable to store the swapped value. 
+
+<br>
+
+### **4.Dynamic Memory Allocation**
+___
+
+### # What is static memory allocation ?
+
+>**Static memory** refers to memory that is allocated during the **compile time** of a program.
+
+><br>
+>The characteristics of static memory allocation : 
+>
+>1. Memory is allocated at compile time.
+>
+>2. The memory remains allocated throughout the program's >execution and is **automatically freed** when the program terminates.
+>
+>3. The size of the allocated memory must be known at compile time and cannot be changed during runtime.<br><br>
+
+<br>
+
+### # What is dynamic memory allocation ?
+
+>**Dynamic memory** refers to memory that is allocated at **runtime** based on the program's needs.
+
+><br>
+>The characteristics of dynamic memory allocation : 
+>
+>1. Memory is allocated during runtime.
+>
+>2. The memory remains allocated until it is **explicitly freed** by the programmer (using free() in C or delete).
+>
+>3. Dynamic memory allocation allows a program to obtain more memory space, while running or to release space when no space is >required. <br><br>
+
+<br>
+
+### # Dynamic Memory Allocation: Operators new And new[]
+
+>In order to create dynamic memory we use the operator **new**
+
+```cpp
+int *name = new int; // is used to allocate memory to contain one single element of type int
+
+int *names = new int[10]; // is used to assign a block (an array) of elements of type int
+```
+<br>
+
+### # Dynamic Memory Allocation: Operators delete And delete[]
+
+>Since the necessity of dynamic memory is usually limited to specific moments within a program, once it is no longer needed it should be freed so that the memory becomes available again for other requests of dynamic memory. This is the purpose of the operator **delete**
+
+```cpp
+delete name; // used to delete memory allocated for a single element
+
+delete [] names; // used to delete memory allocated for a block of elements (an array)
+```
+<br>
+
+**Example of dynamic memory allocation :**
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n, i,*ptr, sum=0;
+    cout << "Number of elements : ";
+    cin >> n;
+
+    ptr = new (nothrow) int[n]; // nothrow ensures that the new operator returns nullptr (instead of throwing an exception) if it fails to allocate memory.
+
+    if(ptr==NULL) //ptr==0
+    { 
+        cout << "Error! not allocated.";
+        return 1;
+    }
+
+    cout << "Enter elements:\n";
+ 
+    for(i=0;i<n;++i)
+    {
+        cin >> *(ptr+i); //ptr[i]
+        sum += *(ptr+i);
+    }
+ 
+    cout << "Sum = " << sum;
+    
+    delete [] (ptr); //memory de-allocated
+}
+```
+<br>
+
+### # Size difference between static and dynamic 
+
+```cpp
+int arr[50];
+```
+>[!TIP]Note
+The array is type of int and has 50 elements. So the total size of this array is, <br><br>
+50 x 4 = 200 byte<br><br>
+And this 200 byte is stored in **stack memory**.
+
+```cpp
+int *arr = new int[50];
+```
+>[!TIP]Note
+The array is created using new keyword. Which means this array is is using dynamic memory. Here the size of the array is,<br><br>
+50 x 4 = 200 byte <br><br>
+this 200 byte is stored in **Heap memory**. But this array is located to a pointer which took 8 byte of space in **stack memory.**<br><br>
+So, the total memory used is 200+8= **208 byte** 
