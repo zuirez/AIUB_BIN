@@ -18,6 +18,12 @@
 - [Pointer with Array](#2-pointer-with-array)
 - [Pointer with Function](#3-pointer-with-function)
 
+<br>
+
+[Back to top](#top)
+
+<br>
+
 ### **1. Introduction**
 ___
 
@@ -263,6 +269,10 @@ p = 0; // we can also write, p = NULL;
 
 <br>
 
+[Back to index](#pointer)
+
+<br>
+
 ### **2. Pointer with Array** 
 ___
 
@@ -408,6 +418,10 @@ Printing ch : Rashed
 ```
 
 The cout works differently with character array. When We try to print arr, the address of first memory block is printed. But when we try to print the ch, we get the full string as output not the momory address.
+
+<br>
+
+[Back to index](#pointer)
 
 <br>
 
@@ -596,3 +610,10 @@ The array is created using new keyword. Which means this array is is using dynam
 50 x 4 = 200 byte <br><br>
 this 200 byte is stored in **Heap memory**. But this array is located to a pointer which took 8 byte of space in **stack memory.**<br><br>
 So, the total memory used is 200+8= **208 byte** 
+
+
+<br>
+
+[Back to index](#pointer)
+
+<br>
