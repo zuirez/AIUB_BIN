@@ -10,6 +10,166 @@
 
 ## Array
 
+### Index : 
+- [Introduction](#1-introduction)
+- [Operations on array](#2-operations-on-array)
+  1. [Searching](#searching)
+  2. [Insertion](#insertion)
+  3. [Deletion](#deletion)
+-
+
+
+<br>
+
+[Back to top](#top)
+
+<br>
+
+### **1. Introduction**
+___
+
+### # What is an array?
+
+>An **array** can hold a series of elements of the **same type** placed in **contiguous
+memory locations.**
+
+<br>
+
+**Key points :**
+- Arrays are blocks of
+**non-dynamic memory** whose size must be determined before execution.
+
+- Declaring a regular array within a local scope (within a function) its elements **will not be initialized to any value by default,** so the contents can be unpredictable (garbage values).
+
+- The elements of
+**global and static** arrays are automatically initialized with their default values, **zeros.**
+
+- An array can also be partially initialized. <br>
+  ```cpp
+  int mimo[5] = { 16, 2}; // rest of the index will be initialized by 0
+  ```
+- char vowel[6] = {'a', 'e', 'i', 'o', 'u', ‘\0'};<br>
+is equivalent to string declaration: <br>char vowel[6] = "aeiou";
+
+<br>
+
+[Back to index](#array)
+
+<br>
+
+### **2. Operations on array** 
+___
+
+
+### # Searching :
+
+```cpp
+int mimo[10] = {32,4,5,12,15,54,6,23,3,55};
+
+int n;
+
+cout<<"Enter the number you want to search: "<<endl;
+
+cin>>n;
+
+for(int i=0; i<10; i++)
+{
+    if(n == mimo[i])
+    {
+        cout<<"The number "<<n<< " is found in index "<<i<<"of the array."<<endl;
+        break;
+    }
+}
+```
+<br>
+
+### # Insertion :
+
+```CPP
+int k, i, n=5, mimo[10]={2, 3, 5, 6, 7}; //partial initialization; n=total elements
+    
+mimo[n++] = 8; // insert value 8 at the array; increase n; n=6
+    
+
+
+/* insert value 1 at the beginning of array */
+    
+for(i=n; i>0; i--) //shift all the values one index forward.
+{
+    mimo[i] = mimo[i-1];
+}
+    
+mimo[0] = 1; //1 is inserted at index 1
+    
+n++; // n increases; n=7
+    
+
+
+// insert value 4 in the middle (index k=3) of the array
+    
+k = 3;
+    
+for(i=n; i>k; i--) //shift all the values one index forward.
+{
+    mimo[i] = mimo[i-1];
+}
+    
+mimo[k] = 4; //4 is inserted at index k;
+n++; //n increases; n=8
+    
+for(i=0; i<n; i++) //printing all the values in the array after insert
+    
+cout << mimo[i]<<" "; 
+```
+
+<br>
+
+### # Deletion :
+
+```cpp
+
+int k, i, n=8, mimo[10]={1, 2, 3, 4, 5, 6, 7, 8}; //n=total elements.
+    
+n--; // Deleting the last element of the array. Decrease n; last element 8 is no longer part of list.
+    
+    
+
+/* delete value 1 from the beginning of array. */
+
+n--; // deleting the value 1 will decrease the total elements n by one.
+    
+    
+for(i=0; i<n; i++)  //shift all the values one index backward.
+{
+    mimo[i] = mimo[i+1];
+}
+    
+k = 2; // delete value 4 from the middle (index k=2) of the array
+    
+n--;         // deleting the value 4 will decrease the total elements n by one.
+    
+for(i=k; i<n; i++) //shift all the values one index forward. i.e. the value
+{
+    mimo[i] = mimo[i+1];
+}
+    
+for(i=0; i<n; i++) //printing all the values in the array after insert
+    
+cout<<mimo[i]<<" ";
+```
+<br>
+
+[Back to index](#array)
+
+<br>
+
+<br><br><br>
+
+
+
+
+
+
 
 ## Pointer
 
