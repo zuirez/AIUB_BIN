@@ -208,7 +208,7 @@ int main()
     cout<<"Address of a : "<<&a<<endl;
 
 
-    //Storing the value of a in a pointer
+    //Storing the address of a in a pointer
     int *ptr = &a;
 
 
