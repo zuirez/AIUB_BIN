@@ -757,7 +757,7 @@ int main()
 ```cpp
 int arr[50];
 ```
->[!TIP]Note
+>[!TIP] Note
 The array is type of int and has 50 elements. So the total size of this array is, <br><br>
 50 x 4 = 200 byte<br><br>
 And this 200 byte is stored in **stack memory**.
@@ -765,7 +765,7 @@ And this 200 byte is stored in **stack memory**.
 ```cpp
 int *arr = new int[50];
 ```
->[!TIP]Note
+>[!TIP] Note
 The array is created using new keyword. Which means this array is is using dynamic memory. Here the size of the array is,<br><br>
 50 x 4 = 200 byte <br><br>
 this 200 byte is stored in **Heap memory**. But this array is located to a pointer which took 8 byte of space in **stack memory.**<br><br>
