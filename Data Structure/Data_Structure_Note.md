@@ -3,20 +3,21 @@
 ## Topics :
 
 1. [Array](#array)
-   - [1D Array](#1d-array)
-   - [2D Array](#2d-array)
    
 2. [Pointer](#pointer)
 
-## Array
+<br><br>
+
+# Array
 
 ### Index : 
-- [Introduction](#1-introduction)
+- [Introduction](#1-introduction-to-array)
 - [Operations on array](#2-operations-on-array)
   1. [Searching](#searching)
   2. [Insertion](#insertion)
   3. [Deletion](#deletion)
--
+
+- [2D Array](#3-2d-array)
 
 
 <br>
@@ -25,7 +26,7 @@
 
 <br>
 
-### **1. Introduction**
+### **1. Introduction to array**
 ___
 
 ### # What is an array?
@@ -163,18 +164,95 @@ cout<<mimo[i]<<" ";
 
 <br>
 
-<br><br><br>
+
+### **3. 2D Array**
+___
+
+<br> 
+
+>A 2D array has 2 dimentions : 
+- Row
+- column
+
+### # Initialization 
+
+```cpp
+int minu[3][5] = {1,2,3,4,5,2,4,6,8,10,3,6,9,12,15};
+
+int minu[3][5] = {{1,2,3,4,5},{2,4,6,8,10},{3,6,9,12,15}};
+
+int minu[3][5] = {
+                    {1,2,3,4,5},
+                    {2,4,6,8,10},
+                    {3,6,9,12,15}
+                };
+```
+<br>
+
+**Key points**
+- **The internal braces are unnecessary**, but helps to distinguish the rows from the
+columns. 
+
+- **Semicolon at the end of the curly brace** which closes the
+assignment. 
+
+- If there are not enough elements in the curly braces to account for every single element in an array, the remaining elements will be filled out with **garbage/zeros.** 
+
+- **Static and global variables are always guaranteed to be initialized to zero anyway, whereas auto or local variables are guaranteed to be garbage**
+
+<br>
+
+>[!NOTE]
+>Formula to access an element : <br>
+**{(Total_column) * (row_index) + (column_index)}**
+> - The counting starts from 0
+
+<br>
+
+### # Memory access 
+
+>**The name of an array always refer to the starting location of the array. i.e. the first element of the array. So, mimo = &mimo[0].**
+
+<br>
+
+>1D array :
+```cpp
+int mimo[5] = {1,2,3,4,5};
+```
+Let's assume, the starting address of this array is 100
+
+So, mimo / mimo[0] address is 100
+
+Now, to get the address of any element of this array we can use this formula : 
+
+**&array[index] = start_location_array + index * size_of_data** <br>
+
+=> &mimo[2] = 100 + 2 * 4 \
+=> &mimo[2] = 100 + 8 \
+=> &mimo[2] 108 
+
+<br>
+
+>2D array :
+
+**&array[i][j] = start_location + {i * (Column * size_of_data)} + (j * size_of_data)** <br>
+
+=> &mimo[1][1] = 100 + {1 * (3 * 4)} + (1 * 4) \
+=> &mimo[1][1] = 100 + 12 + 4 \
+=> &mimo[1][1] = 116
+
+
+[Back to index](#array)
+
+<br>
+<br>
 
 
 
-
-
-
-
-## Pointer
+# Pointer
 
 ### Index :
-- [Introduction](#1-introduction)
+- [Introduction](#1-introduction-to-pointer)
 - [Pointer with Array](#2-pointer-with-array)
 - [Pointer with Function](#3-pointer-with-function)
 
@@ -184,7 +262,7 @@ cout<<mimo[i]<<" ";
 
 <br>
 
-### **1. Introduction**
+### **1. Introduction to pointer**
 ___
 
 ### # What is a pointer?
@@ -208,7 +286,7 @@ int main()
     cout<<"Address of a : "<<&a<<endl;
 
 
-    //Storing the value of a in a pointer
+    //Storing the address of a in a pointer
     int *ptr = &a;
 
 
@@ -656,7 +734,7 @@ After swap :
 Number1 = 10
 Number2 = 5
 ```
->[!TIP]Note
+>[!TIP]
 When we pass arguments to a function **by value**, the called function only gets a copy of the variables, and there is **no way to modify the original variables** in the calling function.<br><br>
 When we pass pointers as arguments (passing by reference or address), the called function **can access and modify the actual variables** in the calling function. <br><br>
 Here we passed the **address** of the variables in the function. And the function swap the numbers and updated the variables instead of created another variable to store the swapped value. 
