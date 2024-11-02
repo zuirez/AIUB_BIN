@@ -255,6 +255,7 @@ Now, to get the address of any element of this array we can use this formula :
 - [Introduction](#1-introduction-to-pointer)
 - [Pointer with Array](#2-pointer-with-array)
 - [Pointer with Function](#3-pointer-with-function)
+- [Dynamic Memory Allocation](#4dynamic-memory-allocation)
 
 <br>
 
