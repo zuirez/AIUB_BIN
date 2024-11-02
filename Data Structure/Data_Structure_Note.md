@@ -489,7 +489,8 @@ char *pchar; // A pointer of type char is declared to hold the address of the ch
 
 pchar = (char*)data; 
 
-/* The void* pointer data is type-cast to a char* pointer because the function knows the data is of type char based on its size. */
+/* The void* pointer data is type-cast to a char* pointer 
+because the function knows the data is of type char based on its size. */
 
 ++(*pchar); 
 
