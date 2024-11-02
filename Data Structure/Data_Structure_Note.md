@@ -464,11 +464,18 @@ Function parameter :
 
 void increase(void *data, int size) //This function takes two arguments
 
-void *data // A pointer to some data. Since it's a void*, it can point to any data type (char, int, etc.).
+void *data 
 
-int size // The size of the data being passed (the size of char or int).
+/* A void pointer, pointing to the address we are passing. 
+Since it's a void pointer, it can point to any data type (char, int, etc.).*/
 
-(void *) // Void pointer is used as we don't know the type of the data we're passing. Here, the size of the data (size) will help the function determine whether the data is a char or an int.
+int size // The size of the data we passed is sored here. (the size of char or int).
+
+(void *) 
+
+/*
+Void pointer is used as we don't know the type of the data we're passing. 
+Here, the size of the data (size) will help the function determine whether the data is a char or an int.*/
 
 
 Inside if_else :
@@ -477,19 +484,33 @@ if (size == sizeof(char)) // The function checks if the size of the data is equa
 
 char *pchar; // A pointer of type char is declared to hold the address of the char data.
 
-pchar = (char*)data; // The void* pointer data is type-cast to a char* pointer because the function knows the data is of type char based on its size.
+pchar = (char*)data; 
 
-++(*pchar); // This increments the value at the memory address pchar points to. The *pchar dereferences the pointer to access the actual value, and ++ increments it.
+/* The void* pointer data is type-cast to a char* pointer because the function knows the data is of type char based on its size. */
+
+++(*pchar); 
+
+/* This increments the value at the memory address pchar points to. 
+The *pchar dereferences the pointer to access the actual value, and ++ increments it.*/
 
 
 
-else if (size == sizeof(int)) // If the size of the data is equal to the size of an int, this block executes. The size of int is usually 4 bytes.
+else if (size == sizeof(int)) 
+
+/* If the size of the data is equal to the size of an int, this block executes. 
+The size of int is usually 4 bytes.*/
 
 int *pint; // A pointer of type int is declared to hold the address of the int data.
 
-pint = (int*)data; // The void* pointer data is type-cast to an int* pointer because the function knows the data is of type int based on its size.
+pint = (int*)data; 
 
-++(*pint); // This increments the value at the memory address pint points to. The *pint dereferences the pointer to access the actual int value, and ++ increments it.
+/* The void* pointer data is type-cast to an int* pointer 
+because the function knows the data is of type int based on its size.*/
+
+++(*pint); 
+
+/* This increments the value at the memory address pint points to. 
+The *pint dereferences the pointer to access the actual int value, and ++ increments it.*/
 
 ```
 <br>
