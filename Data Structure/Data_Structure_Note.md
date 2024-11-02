@@ -480,7 +480,10 @@ Here, the size of the data (size) will help the function determine whether the d
 
 Inside if_else :
 
-if (size == sizeof(char)) // The function checks if the size of the data is equal to the size of a char. The size of char is always 1 byte.
+if (size == sizeof(char)) 
+
+/* The function checks if the size of the data is equal to the size of a char. 
+The size of char is always 1 byte.*/
 
 char *pchar; // A pointer of type char is declared to hold the address of the char data.
 
