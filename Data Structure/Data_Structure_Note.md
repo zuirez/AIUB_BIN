@@ -543,6 +543,7 @@ ___
 
 ### # Address of the first block of an Array :
 
+
 ```cpp
 #include <iostream>
 using namespace std;
