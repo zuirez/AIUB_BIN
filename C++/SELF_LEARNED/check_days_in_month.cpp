@@ -31,9 +31,9 @@ int main()
 
     // with ternary operator
 
-    (year%4==0 && (year%100!=0 && month==2 || year%400==0 && month==2)? 
-    cout<<"29 days month.": cout<<"28 days month.";) : ((month==4 || month==6 || month==9 || month==11)? cout<<"30 days month."):
-    (month==1 || month==3 || month==5 || month==7 || month==8 || month==10 || month==12)? cout<<"31 days month.":cout<<"Not Valid!";
+    // (year%4==0 && (year%100!=0 && month==2 || year%400==0 && month==2)? 
+    // cout<<"29 days month.": cout<<"28 days month.";) : ((month==4 || month==6 || month==9 || month==11)? cout<<"30 days month."):
+    // (month==1 || month==3 || month==5 || month==7 || month==8 || month==10 || month==12)? cout<<"31 days month.":cout<<"Not Valid!";
 
 
 
