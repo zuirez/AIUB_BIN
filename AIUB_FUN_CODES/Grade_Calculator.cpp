@@ -132,8 +132,8 @@ int main()
     float mid;
     int option;
 
-    cout << "       AIUB's Grading System   " << endl << endl;
-    cout << "Numerical %" << "   " << "Letter Grade" << "   " << "Grade Point" << endl
+    cout <<endl<< "       AIUB's Grading System   " << endl << endl;
+    cout << "   Number" << "      " << "Letter Grade" << "   " << "Grade Point" << endl
        << "  90 - 100 " << "   " << "     A+     " << "   " << "    4.00   " << endl
        << "  85 -< 90 " << "   " << "     A      " << "   " << "    3.75   " << endl
        << "  80 -< 85 " << "   " << "     B+     " << "   " << "    3.50   " << endl
@@ -144,7 +144,7 @@ int main()
        << "  50 -< 60 " << "   " << "     D      " << "   " << "    2.25   " << endl
        << "      < 50 " << "   " << "     F      " << "   " << "    0.00   " << endl;   
 
-    cout<<"Enter your Mid marks : ";
+    cout<<endl<< "Enter your Mid marks : ";
     cin>>mid;
     
     cout<<"1. For A+ type 1"<<endl
