@@ -68,6 +68,4 @@ int main()
      cout << "A+" << endl;
        
   cout << endl << "Don't stop until you're 1% \\(^o^)/" << endl;
-  
-  return 0;
 }
