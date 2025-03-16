@@ -23,17 +23,17 @@ int main()
         cin>>b[i];
     }
 
-    bool printed[size2] = {false};
+    // bool printed[size2] = {false};
 
     for(int i=0; i<size1; i++)
     {
         for(int j=0; j<size2; j++)
         {
-            if(a[i]==b[j]  && !printed[j])
+            if(a[i]==b[j]) // && !printed[j]
             {
                 hasCommonElement=true;
                 cout<<a[i]<<" ";
-                printed[j] = true;
+                //printed[j] = true;
                 break;
             }
         }
