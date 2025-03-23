@@ -1,4 +1,6 @@
 - 👋 Hi, I’m @zuirez
 - 👀 I’m interested in learning programming...
 - 🌱 I’m currently studing CSE...
-- 📫 How to reach me? facebook.com/zuirez
+- 📫 How to reach me? 
+- Linkedin : https://www.linkedin.com/in/rashedul-islam-shawon/
+- Facebook : https://www.facebook.com/zuirez/
