@@ -32,5 +32,4 @@ int main()
     else 
         
         cout<<"You are extremely obese.";
-
 }
