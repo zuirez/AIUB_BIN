@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace Theory
 {
-    internal class Program
+    internal class Variable
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
