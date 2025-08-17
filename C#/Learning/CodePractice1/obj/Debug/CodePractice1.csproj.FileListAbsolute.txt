@@ -1,0 +1,8 @@
+A:\GITHUB\AIUB_BIN\C#\Learning\CodePractice1\bin\Debug\CodePractice1.exe.config
+A:\GITHUB\AIUB_BIN\C#\Learning\CodePractice1\bin\Debug\CodePractice1.exe
+A:\GITHUB\AIUB_BIN\C#\Learning\CodePractice1\bin\Debug\CodePractice1.pdb
+A:\GITHUB\AIUB_BIN\C#\Learning\CodePractice1\obj\Debug\CodePractice1.csproj.AssemblyReference.cache
+A:\GITHUB\AIUB_BIN\C#\Learning\CodePractice1\obj\Debug\CodePractice1.csproj.CoreCompileInputs.cache
+A:\GITHUB\AIUB_BIN\C#\Learning\CodePractice1\obj\Debug\CodePractice1.exe
+A:\GITHUB\AIUB_BIN\C#\Learning\CodePractice1\obj\Debug\CodePractice1.pdb
+A:\GITHUB\AIUB_BIN\C#\Learning\CodePractice1\obj\Debug\CodePractice1.exe.config

@@ -1,0 +1,8 @@
+A:\GITHUB\AIUB_BIN\C#\Learning\OutputTracing2\bin\Debug\OutputTracing2.exe.config
+A:\GITHUB\AIUB_BIN\C#\Learning\OutputTracing2\bin\Debug\OutputTracing2.exe
+A:\GITHUB\AIUB_BIN\C#\Learning\OutputTracing2\bin\Debug\OutputTracing2.pdb
+A:\GITHUB\AIUB_BIN\C#\Learning\OutputTracing2\obj\Debug\OutputTracing2.csproj.AssemblyReference.cache
+A:\GITHUB\AIUB_BIN\C#\Learning\OutputTracing2\obj\Debug\OutputTracing2.csproj.CoreCompileInputs.cache
+A:\GITHUB\AIUB_BIN\C#\Learning\OutputTracing2\obj\Debug\OutputTracing2.exe
+A:\GITHUB\AIUB_BIN\C#\Learning\OutputTracing2\obj\Debug\OutputTracing2.pdb
+A:\GITHUB\AIUB_BIN\C#\Learning\OutputTracing2\obj\Debug\OutputTracing2.exe.config

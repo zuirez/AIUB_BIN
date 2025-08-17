@@ -1,0 +1,7 @@
+A:\GITHUB\AIUB_BIN\C#\Learning\TASK1\bin\Debug\TASK1.exe.config
+A:\GITHUB\AIUB_BIN\C#\Learning\TASK1\bin\Debug\TASK1.exe
+A:\GITHUB\AIUB_BIN\C#\Learning\TASK1\bin\Debug\TASK1.pdb
+A:\GITHUB\AIUB_BIN\C#\Learning\TASK1\obj\Debug\TASK1.csproj.AssemblyReference.cache
+A:\GITHUB\AIUB_BIN\C#\Learning\TASK1\obj\Debug\TASK1.csproj.CoreCompileInputs.cache
+A:\GITHUB\AIUB_BIN\C#\Learning\TASK1\obj\Debug\TASK1.exe
+A:\GITHUB\AIUB_BIN\C#\Learning\TASK1\obj\Debug\TASK1.pdb

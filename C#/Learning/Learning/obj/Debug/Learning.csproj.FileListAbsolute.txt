@@ -1,0 +1,8 @@
+A:\GITHUB\AIUB_BIN\C#\Learning\Learning\obj\Debug\Learning.csproj.AssemblyReference.cache
+A:\GITHUB\AIUB_BIN\C#\Learning\Learning\obj\Debug\Learning.csproj.CoreCompileInputs.cache
+A:\GITHUB\AIUB_BIN\C#\Learning\Learning\bin\Debug\Learning.exe.config
+A:\GITHUB\AIUB_BIN\C#\Learning\Learning\bin\Debug\Learning.exe
+A:\GITHUB\AIUB_BIN\C#\Learning\Learning\bin\Debug\Learning.pdb
+A:\GITHUB\AIUB_BIN\C#\Learning\Learning\obj\Debug\Learning.exe
+A:\GITHUB\AIUB_BIN\C#\Learning\Learning\obj\Debug\Learning.pdb
+A:\GITHUB\AIUB_BIN\C#\Learning\Learning\obj\Debug\Learning.exe.config
