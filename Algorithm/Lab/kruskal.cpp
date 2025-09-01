@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int kruskalMST(int n, vector<vector<int>> &edges) 
+void kruskalMST(int n, vector<vector<int>> &edges) 
 {
     sort(edges.begin(), edges.end(), [](vector<int> &a, vector<int> &b)
     {
@@ -46,4 +46,6 @@ int main()
     };
 
 	kruskalMST(n, edges);
+
+    return 0;
 }
