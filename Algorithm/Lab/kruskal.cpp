@@ -23,8 +23,15 @@ void kruskalMST(int n, vector<vector<int>> &edges)
         int v = edge[1];
         int w = edge[2];
 
-        while(parent[u] != u) u = parent[u];
-        while(parent[v] != v) v = parent[v];
+        while(parent[u] != u) 
+        {
+            u = parent[u];
+        }
+        
+        while(parent[v] != v) 
+        {
+            v = parent[v];
+        }
 
         if(u != v)
         {
