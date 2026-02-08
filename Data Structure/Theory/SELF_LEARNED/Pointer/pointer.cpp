@@ -13,7 +13,7 @@ int main()
 
 
     //Storing the value of a in a pointer
-    int *ptr = &a;
+    int *ptr = &a; 
 
     //Printing the value of a using pointer
     cout<<"Value of a using pointer : "<<*ptr<<endl;
