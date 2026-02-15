@@ -1,0 +1,8 @@
+A:\GITHUB\AIUB_BIN\C#\Learning\Problem1\bin\Debug\Problem1.exe.config
+A:\GITHUB\AIUB_BIN\C#\Learning\Problem1\bin\Debug\Problem1.exe
+A:\GITHUB\AIUB_BIN\C#\Learning\Problem1\bin\Debug\Problem1.pdb
+A:\GITHUB\AIUB_BIN\C#\Learning\Problem1\obj\Debug\Problem1.csproj.AssemblyReference.cache
+A:\GITHUB\AIUB_BIN\C#\Learning\Problem1\obj\Debug\Problem1.csproj.CoreCompileInputs.cache
+A:\GITHUB\AIUB_BIN\C#\Learning\Problem1\obj\Debug\Problem1.exe
+A:\GITHUB\AIUB_BIN\C#\Learning\Problem1\obj\Debug\Problem1.pdb
+A:\GITHUB\AIUB_BIN\C#\Learning\Problem1\obj\Debug\Problem1.exe.config

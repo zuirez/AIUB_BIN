@@ -1,0 +1,7 @@
+A:\GITHUB\AIUB_BIN\C#\Learning\OutputPractice2\obj\Debug\OutputPractice2.csproj.AssemblyReference.cache
+A:\GITHUB\AIUB_BIN\C#\Learning\OutputPractice2\obj\Debug\OutputPractice2.csproj.CoreCompileInputs.cache
+A:\GITHUB\AIUB_BIN\C#\Learning\OutputPractice2\bin\Debug\OutputPractice2.exe.config
+A:\GITHUB\AIUB_BIN\C#\Learning\OutputPractice2\bin\Debug\OutputPractice2.exe
+A:\GITHUB\AIUB_BIN\C#\Learning\OutputPractice2\bin\Debug\OutputPractice2.pdb
+A:\GITHUB\AIUB_BIN\C#\Learning\OutputPractice2\obj\Debug\OutputPractice2.exe
+A:\GITHUB\AIUB_BIN\C#\Learning\OutputPractice2\obj\Debug\OutputPractice2.pdb

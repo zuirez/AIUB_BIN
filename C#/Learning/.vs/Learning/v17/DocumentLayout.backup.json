@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3131E9-E0CE-4DBB-B3D3-4782F091F3C7}|TASK4\\TASK4.csproj|A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\task4\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3131E9-E0CE-4DBB-B3D3-4782F091F3C7}|TASK4\\TASK4.csproj|solutionrelative:task4\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3131E9-E0CE-4DBB-B3D3-4782F091F3C7}|TASK4\\TASK4.csproj|A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\task4\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3131E9-E0CE-4DBB-B3D3-4782F091F3C7}|TASK4\\TASK4.csproj|solutionrelative:task4\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49A8498D-8EF8-48E1-ABB1-F1F8121F9A4B}|TASK3\\TASK3.csproj|A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\task3\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49A8498D-8EF8-48E1-ABB1-F1F8121F9A4B}|TASK3\\TASK3.csproj|solutionrelative:task3\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49A8498D-8EF8-48E1-ABB1-F1F8121F9A4B}|TASK3\\TASK3.csproj|A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\task3\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49A8498D-8EF8-48E1-ABB1-F1F8121F9A4B}|TASK3\\TASK3.csproj|solutionrelative:task3\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6862223-1E01-457D-9B53-38F24DE1BD1E}|TASK2\\TASK2.csproj|A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\task2\\task8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6862223-1E01-457D-9B53-38F24DE1BD1E}|TASK2\\TASK2.csproj|solutionrelative:task2\\task8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6862223-1E01-457D-9B53-38F24DE1BD1E}|TASK2\\TASK2.csproj|A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\task2\\task7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6862223-1E01-457D-9B53-38F24DE1BD1E}|TASK2\\TASK2.csproj|solutionrelative:task2\\task7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6862223-1E01-457D-9B53-38F24DE1BD1E}|TASK2\\TASK2.csproj|A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\task2\\task6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6862223-1E01-457D-9B53-38F24DE1BD1E}|TASK2\\TASK2.csproj|solutionrelative:task2\\task6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6862223-1E01-457D-9B53-38F24DE1BD1E}|TASK2\\TASK2.csproj|A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\task2\\task5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6862223-1E01-457D-9B53-38F24DE1BD1E}|TASK2\\TASK2.csproj|solutionrelative:task2\\task5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6862223-1E01-457D-9B53-38F24DE1BD1E}|TASK2\\TASK2.csproj|A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\task2\\task4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6862223-1E01-457D-9B53-38F24DE1BD1E}|TASK2\\TASK2.csproj|solutionrelative:task2\\task4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6862223-1E01-457D-9B53-38F24DE1BD1E}|TASK2\\TASK2.csproj|A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\task2\\task2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6862223-1E01-457D-9B53-38F24DE1BD1E}|TASK2\\TASK2.csproj|solutionrelative:task2\\task2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B587D19-DA52-499A-9488-7000DF8CE604}|TASK1\\TASK1.csproj|a:\\github\\aiub_bin\\c#\\learning\\task1\\task8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B587D19-DA52-499A-9488-7000DF8CE604}|TASK1\\TASK1.csproj|solutionrelative:task1\\task8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "task8.cs",
+              "DocumentMoniker": "A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\TASK1\\task8.cs",
+              "RelativeDocumentMoniker": "TASK1\\task8.cs",
+              "ToolTip": "A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\TASK1\\task8.cs",
+              "RelativeToolTip": "TASK1\\task8.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAQwAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T05:18:27.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Course.cs",
+              "DocumentMoniker": "A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\TASK4\\Course.cs",
+              "RelativeDocumentMoniker": "TASK4\\Course.cs",
+              "ToolTip": "A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\TASK4\\Course.cs",
+              "RelativeToolTip": "TASK4\\Course.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T07:34:48.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\TASK4\\Contact.cs",
+              "RelativeDocumentMoniker": "TASK4\\Contact.cs",
+              "ToolTip": "A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\TASK4\\Contact.cs",
+              "RelativeToolTip": "TASK4\\Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T07:10:28.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Triangle.cs",
+              "DocumentMoniker": "A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\TASK3\\Triangle.cs",
+              "RelativeDocumentMoniker": "TASK3\\Triangle.cs",
+              "ToolTip": "A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\TASK3\\Triangle.cs",
+              "RelativeToolTip": "TASK3\\Triangle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T06:24:36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\TASK3\\Student.cs",
+              "RelativeDocumentMoniker": "TASK3\\Student.cs",
+              "ToolTip": "A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\TASK3\\Student.cs",
+              "RelativeToolTip": "TASK3\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T06:12:29.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "task8.cs",
+              "DocumentMoniker": "A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\TASK2\\task8.cs",
+              "RelativeDocumentMoniker": "TASK2\\task8.cs",
+              "ToolTip": "A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\TASK2\\task8.cs",
+              "RelativeToolTip": "TASK2\\task8.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAQwDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T05:48:55.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "task7.cs",
+              "DocumentMoniker": "A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\TASK2\\task7.cs",
+              "RelativeDocumentMoniker": "TASK2\\task7.cs",
+              "ToolTip": "A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\TASK2\\task7.cs",
+              "RelativeToolTip": "TASK2\\task7.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwB0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T05:15:59.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "task6.cs",
+              "DocumentMoniker": "A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\TASK2\\task6.cs",
+              "RelativeDocumentMoniker": "TASK2\\task6.cs",
+              "ToolTip": "A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\TASK2\\task6.cs",
+              "RelativeToolTip": "TASK2\\task6.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T05:12:36.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "task5.cs",
+              "DocumentMoniker": "A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\TASK2\\task5.cs",
+              "RelativeDocumentMoniker": "TASK2\\task5.cs",
+              "ToolTip": "A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\TASK2\\task5.cs",
+              "RelativeToolTip": "TASK2\\task5.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T05:05:10.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "task4.cs",
+              "DocumentMoniker": "A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\TASK2\\task4.cs",
+              "RelativeDocumentMoniker": "TASK2\\task4.cs",
+              "ToolTip": "A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\TASK2\\task4.cs",
+              "RelativeToolTip": "TASK2\\task4.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T05:00:52.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "task2.cs",
+              "DocumentMoniker": "A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\TASK2\\task2.cs",
+              "RelativeDocumentMoniker": "TASK2\\task2.cs",
+              "ToolTip": "A:\\GITHUB\\AIUB_BIN\\C#\\Learning\\TASK2\\task2.cs",
+              "RelativeToolTip": "TASK2\\task2.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-16T04:48:36.203Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

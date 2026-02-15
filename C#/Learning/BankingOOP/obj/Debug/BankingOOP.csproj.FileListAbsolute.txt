@@ -1,0 +1,8 @@
+A:\GITHUB\AIUB_BIN\C#\Learning\BankingOOP\obj\Debug\BankingOOP.csproj.AssemblyReference.cache
+A:\GITHUB\AIUB_BIN\C#\Learning\BankingOOP\obj\Debug\BankingOOP.csproj.CoreCompileInputs.cache
+A:\GITHUB\AIUB_BIN\C#\Learning\BankingOOP\bin\Debug\BankingOOP.exe.config
+A:\GITHUB\AIUB_BIN\C#\Learning\BankingOOP\bin\Debug\BankingOOP.exe
+A:\GITHUB\AIUB_BIN\C#\Learning\BankingOOP\bin\Debug\BankingOOP.pdb
+A:\GITHUB\AIUB_BIN\C#\Learning\BankingOOP\obj\Debug\BankingOOP.exe
+A:\GITHUB\AIUB_BIN\C#\Learning\BankingOOP\obj\Debug\BankingOOP.pdb
+A:\GITHUB\AIUB_BIN\C#\Learning\BankingOOP\obj\Debug\BankingOOP.exe.config
