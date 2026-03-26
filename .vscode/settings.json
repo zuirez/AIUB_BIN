@@ -1,6 +1,0 @@
-{
-    "dotnet.preferCSharpExtension": true,
-    "files.associations": {
-        "iostream": "cpp"
-    }
-}
